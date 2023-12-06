@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Self Introduction</title>
+    <link rel="stylesheet" href="hw1.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <button class="skip-to-content" onclick="document.getElementById('mainContent').focus()">Skip to Main Content</button>
+
+        <section id="about">
+            <h1>About Me</h1>
+            <p>
+               
+                Hello there! I'm Katta Jaswanth.
+                
+                Welcome to my corner of the internet. I'm passionate about [your interests, hobbies, or profession]. Whether it's delving into the depths of code, capturing moments through a camera lens, or exploring the realms of [your field], I find immense joy in the pursuit of knowledge and creativity.</p>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li><h3>Programming Languages:</h3> Proficiency in languages like Python, R, Java, or C++ is essential for implementing AI algorithms and working with AI frameworks and libraries.</li>
+                <li><h3>Machine Learning and Deep Learning:</h3> Understanding the concepts and practical implementation of machine learning algorithms, neural networks, and deep learning architectures like CNNs, RNNs, and GANs.</li>
+                <li><h3>Natural Language Processing (NLP):</h3>hKnowledge of processing and analyzing human language data, including tasks like sentiment analysis, text generation, and language translation.</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: kattajasnth@email.com</p>
+            <p>Phone: 9730938390</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 kattajaswanth</p>
+    </footer>
+</body>
+
+</html>
